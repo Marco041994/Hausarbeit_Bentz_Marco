@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="18154" systemVersion="20E241" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Item" representedClassName="Item" syncable="YES" codeGenerationType="class">
+        <attribute name="timestamp" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+    </entity>
+    <entity name="Settings" representedClassName="Settings" syncable="YES" codeGenerationType="class">
+        <attribute name="bloodpressure" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="growth" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="readingdistance" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="stepcounthandicap" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="userid" optional="YES" attributeType="UUID" usesScalarValueType="NO"/>
+    </entity>
+    <entity name="Users" representedClassName="Users" syncable="YES" codeGenerationType="class">
+        <attribute name="birthdate" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="bodymassindex" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="firstname" optional="YES" attributeType="String"/>
+        <attribute name="gender" optional="YES" attributeType="String"/>
+        <attribute name="height" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="lastname" optional="YES" attributeType="String"/>
+        <attribute name="proiflepicture" optional="YES" attributeType="URI"/>
+        <attribute name="stepstoday" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="userid" optional="YES" attributeType="UUID" usesScalarValueType="NO"/>
+    </entity>
+    <elements>
+        <element name="Item" positionX="-63" positionY="-18" width="128" height="44"/>
+        <element name="Users" positionX="-54" positionY="0" width="128" height="164"/>
+        <element name="Settings" positionX="-36" positionY="81" width="128" height="104"/>
+    </elements>
+</model>
